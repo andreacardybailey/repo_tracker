@@ -8,4 +8,4 @@ var reducers = require('./reducers');
  */
 var store = createStore(reducers.repositoryReducer);
 
-module.exports  = store;
+module.exports = store;

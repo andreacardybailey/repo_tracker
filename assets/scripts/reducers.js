@@ -44,7 +44,7 @@ var repositoryReducer = function(state, action) {
         var newRepository = Object.assign({}, repository, {rating: action.rating});
         return before.concat(newRepository, after);
     }
-
+    
     return state;
 };
 
